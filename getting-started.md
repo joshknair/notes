@@ -36,6 +36,16 @@ Cover the following Java topics.  Use IntelliJ IDEA Community Edition IDE for de
   + Multi-threading (Thread, Runnable, Executor Framework, CallableFuture, CompletableFuture)
     + Making parallel calls
     + Aggregating results from multiple parallel calls
+  + Design Patterns (see https://www.javatpoint.com/design-patterns-in-java)
+    + Singleton
+    + Proxy
+    + Adapter
+    + Builder
+    + Abstract Factory
+    + Factory Method
+    + Facade
+    + Strategy
+
 + Creating/Building Java Projects
   + Maven or Gradle
   + GitHub (learn to manage sourcecode in Git version control)
