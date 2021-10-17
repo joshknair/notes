@@ -1,5 +1,9 @@
 This document outlines the skillsets for Java Backend Engineer.
 
+## Step 0: Environment Setup
+- Download and install Java 15 or above (https://openjdk.java.net/)
+- Download and install IntelliJ
+
 ## Step 1: Core Java & Object Oriented Programming
 Cover the following Java topics.  Use IntelliJ IDEA Community Edition IDE for development.  Use https://www.w3schools.com/java/default.asp as a reference.
 + Basic Concepts:
