@@ -27,6 +27,7 @@ Cover the following Java topics.  Use IntelliJ IDEA Community Edition IDE for de
   + Collection, List, ArrayList, Set, SortedSet, Map, Hashmap, Hashtable
   + Equals & Hashcode
 + Advanced
+  + Logging and log levels
   + Lamda Expression
   + Streams
   + Optional
@@ -69,10 +70,15 @@ Learn these topics to build APIs.
   + Deep Dive
     + Model/View/Controller
     + Controller & Controller Advice
+      + HTTP Methods (GET, POST, PUT, PATCH etc.)
+      + HTTP Status Codes
+      + HTTP Success and Error responses   
     + Service
     + Repository
     + Spring Data
-    + AOP
+    + Actuator
+    + Aspect-Oriented Programming (AOP)
+    + Testing APIs
     + Docker
       + Learn the fundamentals of Docker
   + Projects
