@@ -33,7 +33,7 @@ Cover the following Java topics.  Use IntelliJ IDEA Community Edition IDE for de
 + Advanced
   + Logging and log levels
   + Lamda Expression
-  + Streams
+  + Streams (functional programming)
   + Optional
   + New Date/Time APIs
   + Network programming (sockets)
