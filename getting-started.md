@@ -35,7 +35,7 @@ Cover the following Java topics.  Use IntelliJ IDEA Community Edition IDE for de
   + Lamda Expression
   + Streams (functional programming)
   + Optional
-  + New Date/Time APIs
+  + New Date/Time APIs (Instant, LocalDate etc.)
   + Network programming (sockets)
   + Multi-threading (Thread, Runnable, Executor Framework, CallableFuture, CompletableFuture)
     + Making parallel calls
