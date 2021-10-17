@@ -78,6 +78,7 @@ Learn these topics to build APIs.
   + Scope
   + Dependency Injection
 + SpringBoot (see https://spring.io/guides)
+  + JSON
   + Spring Initializer (https://start.spring.io/)
   + Build a hello world Restful api
   + Consume a service (e.g. OpenWeather API -> https://openweathermap.org/appid)
