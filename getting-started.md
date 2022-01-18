@@ -97,7 +97,7 @@ Learn these topics to build APIs.
     + Docker
       + Learn the fundamentals of Docker
   + Projects
-    + Sample project - see weather-api
+    + Sample project - see [weather-api](https://github.com/joshknair/weather-api)
     + Build a RestAPI that uses Google Firebase DB
     + Build a RestAPI that uses Postgres or MySQL as the database
     + Dockerize one of the APIs for deployment
