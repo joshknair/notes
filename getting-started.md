@@ -97,9 +97,11 @@ Learn these topics to build APIs.
     + Docker
       + Learn the fundamentals of Docker
   + Projects
+    + Sample project - see weather-api
     + Build a RestAPI that uses Google Firebase DB
     + Build a RestAPI that uses Postgres or MySQL as the database
     + Dockerize one of the APIs for deployment
+    + Convert the API to reactive (https://www.baeldung.com/spring-webflux)
 
 ## Step 4: Cloud
 Learn the basics of Cloud (AWS preferred)
