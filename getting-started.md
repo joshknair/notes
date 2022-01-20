@@ -99,8 +99,7 @@ Learn these topics to build APIs.
   + Projects
     + Sample project - see [weather-api](https://github.com/joshknair/weather-api)
       +  Key features to implement
-         + Springboot webflux - reactive
-         + Custom annotation for logging requests and responses (e.g.  @Log)
+         + Custom annotation for logging requests and responses (e.g.  @Log).  See example https://medium.com/@yashpatel007/spring-custom-annotations-d89cfee478f7
          + Metrics - springboot actuator
          + Caching (L1 and L2 caches
          + Unit and Integration tests
