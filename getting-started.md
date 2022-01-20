@@ -110,7 +110,12 @@ Learn these topics to build APIs.
     + Dockerize one of the APIs for deployment
     + Convert the API to reactive (https://www.baeldung.com/spring-webflux)
 
-## Step 4: Cloud
+## Step 4: Tooling
++ JConsole (monitoring)
++ JMeter or Gatling (perf test)
++ Docker
++ GitHub Actions
+## Step 5: Cloud
 Learn the basics of Cloud (AWS preferred)
 - TBD
 - 
