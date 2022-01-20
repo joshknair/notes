@@ -98,6 +98,13 @@ Learn these topics to build APIs.
       + Learn the fundamentals of Docker
   + Projects
     + Sample project - see [weather-api](https://github.com/joshknair/weather-api)
+      +  Key features to implement
+         + Springboot webflux - reactive
+         + Custom annotation for logging requests and responses (e.g.  @Log)
+         + Metrics - springboot actuator
+         + Caching (L1 and L2 caches
+         + Unit and Integration tests
+    + Convert the above prject to reactive
     + Build a RestAPI that uses Google Firebase DB
     + Build a RestAPI that uses Postgres or MySQL as the database
     + Dockerize one of the APIs for deployment
