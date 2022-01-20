@@ -101,7 +101,8 @@ Learn these topics to build APIs.
       +  Key features to implement
          + Custom annotation for logging requests and responses (e.g.  @Log).  See example https://medium.com/@yashpatel007/spring-custom-annotations-d89cfee478f7
          + Metrics - springboot actuator
-         + Caching (L1 and L2 caches
+         + Caching (L1 and L2 caches)
+         + Circuit breaker (see https://resilience4j.readme.io/docs/circuitbreaker)
          + Unit and Integration tests
     + Convert the above prject to reactive
     + Build a RestAPI that uses Google Firebase DB
