@@ -116,6 +116,8 @@ Learn these topics to build APIs.
 + Wiremock (http://wiremock.org/)
 + Docker
 + GitHub Actions or Jenkins
++ GraphQL
++ Kafka
 ## Step 5: Cloud and Other Concepts 
 - CAP Theorem 
 - Cloud Patterns (https://docs.microsoft.com/en-us/azure/architecture/patterns/)
