@@ -113,9 +113,20 @@ Learn these topics to build APIs.
 ## Step 4: Tooling
 + JConsole (monitoring)
 + JMeter or Gatling (perf test)
++ Wiremock (http://wiremock.org/)
 + Docker
-+ GitHub Actions
-## Step 5: Cloud
-Learn the basics of Cloud (AWS preferred)
-- TBD
-- 
++ GitHub Actions or Jenkins
+## Step 5: Cloud and Other Concepts 
+- CAP Theorem 
+- Cloud Patterns (https://docs.microsoft.com/en-us/azure/architecture/patterns/)
+  - CQRS
+  - Sidecar
+  - Backend for FrontEnd (BFF)
+  - Circuit breaker
+  - Cache-aside
+  - Compensating Transactions
+  - Event Sourcing
+  - Sharding
+- AWS 
+  - AWS Certified Solutions Architect – Associate
+
