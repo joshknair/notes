@@ -48,7 +48,7 @@ Table will have the following attributes:
  + country: string
 
 
-### Create customer
+### 2.1 Create customer
 URL:  http://localhost:8080/weather/v1?customers
 
 Request Method:  POST
@@ -80,7 +80,26 @@ Response (201):
 }
 ```
 
-### Update customer
+### 2.2 Get customer
+URL:  http://localhost:8080/weather/v1?customers/{id}
+
+Request Method:  GET
+
+Response (200):
+```
+{
+      "id" : 12345,
+      "firstName" : "John",
+      "lastName" : "Doe",
+      "address1" : "2 Main Street",
+      "city" : "Chicago",
+      "state" : "IL",
+      "postalCode" : "55111",
+      "country" : "US"
+}
+```
+
+### 2.3 Update customer
 URL:  http://localhost:8080/weather/v1?customers/{id}
 
 Request Method:  POST
@@ -112,7 +131,7 @@ Response (200):
 }
 ```
 
-### Delete customer
+### 2.4 Delete customer
 URL:  http://localhost:8080/weather/v1?customers/{id}
 
 Request Method:  DELETE
