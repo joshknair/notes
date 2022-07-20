@@ -32,3 +32,103 @@ Response (500) - Failure to process request
 }
 ```
 
+## 2. Customer API
+Create an API to perform CRUD operations (create, read, update, delete) on a database table called "customer".
+
+You may use your choice of database(Postgres, MySQL etc.) to store this information. 
+Table will have the following attributes:
+ + id  integer
+ + first_name string
+ + last_name string
+ + address1 string
+ + address2 string
+ + city string
+ + state string
+ + postal_code string
+ + country string
+
+
+### Create customer
+URL:  http://localhost:8080/weather/v1?customers
+
+Request Method:  POST
+
+Request:
+```
+{
+      "firstName" : "John",
+      "lastName" : "Doe",
+      "address1" : "1 Main Street",
+      "city" : "Chicago",
+      "state" : "IL",
+      "postalCode" : "55111",
+      "country" : "US"
+}
+```
+
+Response (201):
+```
+{
+      "id" : 12345,
+      "firstName" : "John",
+      "lastName" : "Doe",
+      "address1" : "1 Main Street",
+      "city" : "Chicago",
+      "state" : "IL",
+      "postalCode" : "55111",
+      "country" : "US"
+}
+```
+
+### Update customer
+URL:  http://localhost:8080/weather/v1?customers/{id}
+
+Request Method:  POST
+
+Request:
+```
+{
+      "firstName" : "John",
+      "lastName" : "Doe",
+      "address1" : "2 Main Street",
+      "city" : "Chicago",
+      "state" : "IL",
+      "postalCode" : "55111",
+      "country" : "US"
+}
+```
+
+Response (200):
+```
+{
+      "id" : 12345,
+      "firstName" : "John",
+      "lastName" : "Doe",
+      "address1" : "2 Main Street",
+      "city" : "Chicago",
+      "state" : "IL",
+      "postalCode" : "55111",
+      "country" : "US"
+}
+```
+
+### Delete customer
+URL:  http://localhost:8080/weather/v1?customers/{id}
+
+Request Method:  DELETE
+
+Response:
+```
+{
+    "code" : 200,
+    "message" : "Customer deleted successfully"
+}
+```
+
+## 3. Customer API (Firebase DB)
+Convert the above API to use Google Firestore DB as the persistence layer
+
+## 4. Products API
+TBD
+
+
