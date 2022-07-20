@@ -145,7 +145,9 @@ Response:
 ```
 
 ## 3. Customer API (Firebase DB)
-Convert the above API to use Google Firestore DB as the persistence layer
+Convert the above API to use Google Firebase DB as the persistence layer.
+
+See https://www.youtube.com/watch?v=ScsID2yPB8k to learn about Google Firebase DB
 
 ## 4. Products API
 TBD
