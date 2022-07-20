@@ -37,15 +37,15 @@ Create an API to perform CRUD operations (create, read, update, delete) on a dat
 
 You may use your choice of database(Postgres, MySQL etc.) to store this information. 
 Table will have the following attributes:
- + id  integer
- + first_name string
- + last_name string
- + address1 string
- + address2 string
- + city string
- + state string
- + postal_code string
- + country string
+ + id:  integer
+ + first_name: string
+ + last_name: string
+ + address1: string
+ + address2: string
+ + city: string
+ + state: string
+ + postal_code: string
+ + country: string
 
 
 ### Create customer
